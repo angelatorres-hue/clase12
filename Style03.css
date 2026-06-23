@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: sans-serif;
+    background-color: #f4f6f9;
+    padding-top: 50px;
+}
+.tarjeta {
+    background: white;
+    padding: 30px;
+    border-radius: 16px;
+    width: 320px;
+    margin: 0 auto;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+.tarjeta h2 {
+    color: #666;
+    font-size: 18px;
+    margin-top: 0;
+}
+.contenedor-metrica {
+    border-left: 3px solid #5d78ff;
+    padding-left: 15px;
+    margin: 20px 0;
+}
+.numero {
+    color: #5d78ff;
+    font-size: 36px;
+    font-weight: bold;
+    margin: 0;
+}
+.subtitulo {
+    color: #a0a0a0;
+    font-size: 11px;
+    text-transform: uppercase;
+    margin: 5px 0 0 0;
+}
+.descripcion {
+    color: #888;
+    font-size: 13px;
+    line-height: 1.4;
+}
+.boton-sincronizar {
+    background-color: #8d7a74;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    width: 100%;
+    padding: 12px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+}
